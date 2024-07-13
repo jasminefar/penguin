@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EAF2F8;
+    margin: 0;
+}
+
+.penguin {
+    position: relative;
+    width: 150px;
+    height: 300px;
+}
+
+.body {
+    position: relative;
+    width: 150px;
+    height: 250px;
+    background-color: #000;
+    border-radius: 70px 70px 50px 50px;
+    z-index: 1;
+}
+
+.white-belly {
+    position: absolute;
+    width: 100px;
+    height: 180px;
+    background-color: #fff;
+    border-radius: 50px 50px 40px 40px;
+    top: 30px;
+    left: 25px;
+}
+
+.eye {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.eye.left {
+    left: 30px;
+    top: 50px;
+}
+
+.eye.right {
+    right: 30px;
+    top: 50px;
+}
+
+.pupil {
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.beak {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #FFA500;
+    border-radius: 50% 50% 0 0;
+    transform: rotate(45deg);
+    top: 90px;
+    left: 65px;
+}
+
+.wing {
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.wing.left {
+    left: -25px;
+    top: 80px;
+    transform: rotate(-30deg);
+}
+
+.wing.right {
+    right: -25px;
+    top: 80px;
+    transform: rotate(30deg);
+}
+
+.feet {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: -20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.foot {
+    width: 30px;
+    height: 30px;
+    background-color: #FFA500;
+    border-radius: 50%;
+}
